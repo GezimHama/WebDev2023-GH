@@ -5,17 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEB DEV 2023</title>
+    <link rel="shortcut icon" href="Electro Plus - Logo.png" type="image/png">
     <style>
         body
         {
-            background-color:blanchedalmond ;
+            background-color:blanchedalmond;
             color:brown;
+            text-align: center;
+        }
+        a
+        {
+            text-decoration: none;
+            text-align: center;
+        }
+        ol, ul
+        {
+            list-style-type: none;
             text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to HTML 101</h1>
+    <h1 id="top">Welcome to HTML 101</h1>
+
+    <a href="#bottom">Scroll to bottom of page!</a>
+
+    <br><br><br><br>
+
     <hp>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsum quae dolore commodi, <br>iste fuga quidem iure deserunt itaque corporis? <br>Ad, <b>tempora</b> praesentium maxime <i>fuga</i> ut sunt mollitia quas voluptatum.</hp>
 
 
@@ -29,9 +45,9 @@
     <p>
         <b>
             <i>
-                <u>
+                <span style="text-decoration: underline;">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                </u>
+                </span>
             </i>
         </b>
     </p>
@@ -62,10 +78,13 @@
         <li>Item 3</li>
     </ul>
 
-    <script>
+    <!-- JavaScript Alert, kur bohet faqja refresh e qet fjalen "Welcome to our page" -->
+    <!-- <script>
         alert("Welcome to our page")
-    </script>
-
+    </script> -->
+    <div id="bottom">
+        <a href="#top">Go back to top!</a>
+    </div>
 
 </body>
 </html>
