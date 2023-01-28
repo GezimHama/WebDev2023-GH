@@ -1,0 +1,25 @@
+body
+        {
+            background-color: aliceblue;
+            /* background-image: url("../JPEG/PC.jpg"); */
+        }
+
+#box
+    {
+            display: block;
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+            background-color: black;
+            color: beige;
+            text-align: center;
+            padding: 25px;
+            opacity: 0.5;
+    }
+
+.float-img
+{
+    
+    float: left; 
+    margin: 10px;
+}
