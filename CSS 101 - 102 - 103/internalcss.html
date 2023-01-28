@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1
+        {
+            color: burlywood;
+            background-color: brown;
+        }
+        body
+        {
+            background-color: burlywood;
+            text-align: center;
+        }
+        p
+        {
+            background-color: aquamarine;
+        }
+
+        /* Grouped selectors */
+        div, h1
+        {
+            color: cyan;
+        }
+
+        /* Class Selector */
+        .h
+        {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .uppercase
+        {
+            text-transform: uppercase;
+        }
+
+        /* ID Selector */
+        #paragraph
+        {
+            background-color: rgb(187, 107, 27);
+            color: beige;
+            font-size: larger;
+            margin: 20px 150px 20px 150px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 class="h">Internal CSS</h1>
+    <div>This is a div</div>
+    <p class="uppercase">This is a paragraph</p>
+    <h1 style="background-color: black;"> This is a heading</h1>
+    <div>
+        <p id="paragraph">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+    </div>
+
+</body>
+</html>

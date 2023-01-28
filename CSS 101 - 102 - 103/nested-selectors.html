@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Nested Selectors */
+        p strong i
+        {
+            color: blue;
+        }
+
+        /* Challenge */
+        div p
+        {
+            color: rgba(10, 125, 81, 0.8);
+        }
+
+        a
+        {
+            color: azure;
+            background-color: brown;
+            text-decoration: none;
+        }
+        /* Kur shkon me maus permbi link */
+        a:hover
+        {
+            color: brown;
+            background-color:burlywood;
+        }
+
+        /* Kur klikon dhe e mban te klikume linkun */
+        a:active
+        {
+            background-color: darkmagenta;
+        }
+
+        /* Ngjyra e linkut pas vizitimit */
+        a:visited
+        {
+            background-color: chartreuse;
+        }
+
+        .small
+        {
+            font-size: 7px;
+        }
+
+        body
+        {
+            background-color: brown;
+        }
+        
+        div
+        {
+            background-image: url("../JPEG/PC.jpg");
+            /* background-size: auto; */
+            height: 1000px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <h1>Nested selectors</h1>
+
+    <div>
+        Stuff here
+    </div>
+
+    <a href="https://facebook.com">Facebook</a>
+    <div>
+        <p>Make this blue</p>
+    </div>
+    <p>This should not be BLUE!!!</p>
+
+    <h1 class="small">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque dicta non ullam corrupti ipsa natus, voluptatum quidem nam minus nostrum voluptate possimus dolor iste quos rem fugiat vel rerum? Cupiditate?
+    </h1>
+
+    <!-- <div>
+        <p>
+            <strong>Lorem ipsum <i>dolor</i> sit, amet consectetur</strong> adipisicing elit. Cum voluptates hic odit, tempora tempore libero et saepe eum a velit voluptatibus quos illo repudiandae nisi aspernatur architecto.
+        </p>
+            <strong>Maiores vero quod!</strong>
+    </div> -->
+</body>
+</html>
