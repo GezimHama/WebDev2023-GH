@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Forms</h1>
+
+    <form method="GET" action="FirstFile.html">
+        <button type="submit">
+            Submit this form
+        </button>
+    </form>
+    <br><br>
+    <form action="" method="get">
+        <div>
+            <input required type="text" placeholder="Enter your name">
+            <input required type="password" placeholder="Enter your password">
+        </div>
+        <br><br>
+        <div>
+            <textarea cols="30" rows="5" placeholder="A place holder">This is the place where       Value       of text area gets written</textarea>
+        </div>
+        <br><br>
+        <div>
+            <button type="button">This is a button</button>
+        </div>
+        <br><br>
+        <div>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+        <br><br>
+
+        <div>
+            <select name="selected option">
+                <option value="Value 1">Option 1</option>
+                <option value="Value 1">Option 2</option>
+                <option value="Value 1">Option 3</option>
+                <!-- Disabled option -->
+                <option value="" disabled="disabled">
+                    - Disabled -
+                </option>
+                <option value="Value 1">Option 4</option>
+                <option value="Value 1">Option 5</option>
+                <option value="Value 1">Option 6</option>
+                <option value="Value 1">Option 7</option>
+                <!-- Default selected option -->
+                <option value="Default" selected="selected">
+                    -Default-
+                </option>
+                <option value="Value 1">Option 8</option>
+            </select>
+        </div>
+    </form>
+
+</body>
+</html>
